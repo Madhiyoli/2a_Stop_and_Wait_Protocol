@@ -10,7 +10,7 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 server.py
-```
+~~~
 import socket
 
 server = socket.socket()
@@ -31,9 +31,9 @@ while True:
             print("Connection closed by client")
             conn.close()
             break
-```
+~~~
 client.py
-```
+~~~
 
 import socket
 import time
@@ -59,8 +59,9 @@ while True:
     except socket.timeout:
         print("No ACK received, retransmitting...")
         continue  
-```
+~~~
 ## OUTPUT
-![alt text](<cn 2a.png>)
+![alt text](../server.py.png)
+![alt text](<../client .py.png>)
 ## RESULT
-Thus, python program to perform stop and wait protocol was successfully executed.
+Thus, python program to perform stop and wait protocol was successfully execute
