@@ -61,7 +61,7 @@ while True:
         continue  
 ~~~
 ## OUTPUT
-![alt text](../server.py.png)
-![alt text](<../client .py.png>)
+![alt text](<client .py.png>)
+![alt text](server.py.png)
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully execute
